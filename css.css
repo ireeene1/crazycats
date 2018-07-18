@@ -1,0 +1,59 @@
+*{
+	margin:0; padding: 0; list-style: none;
+}
+img{
+	width: 650px; height: 295px;
+}
+
+.all{
+	width: 650px; height: 295px; margin:100px auto; position:relative;
+	border: 1px solid #ccc; padding: 10px;  overflow: hidden;
+}
+
+.all .show{ width: 650px; height: 295px; 
+overflow: hidden;  z-index: 1; position: relative;
+	
+}
+
+.all .show ul{
+	width: 20000px;
+	position: absolute;
+	
+}
+
+.all ul li{
+	float: left;
+}
+
+.all ol{ z-index: 2;
+	    position: absolute;right: 15px; bottom:25px
+}
+
+.all ol li{ float: left; line-height: 25px; margin-left:10px;
+	 width: 25px; height: 25px; border: 1px solid #fff;
+	  background:rgba(255,255,255,0.5) ; text-align: center;
+	  cursor: pointer;
+}
+
+.all .cur{
+	background: #f60; color: #fff;
+}
+
+
+#btn_d{
+	width: 650px; height: 295px; margin:auto; margin-top: -50px;
+	text-align: center; border: 1px solid #ccc;
+}
+#btn_d button{
+	margin: 10px;
+}
+
+#hidebtn{ position: relative;
+	margin-top:20px;
+}
+
+
+#on{ position: absolute; top: 40px; left: 253px;
+	text-align: center;
+   margin: 10px auto;
+}
